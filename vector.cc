@@ -2,8 +2,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-  size_t talla=0;
-  vector<int>edad(talla);
+  size_t talla=16;
+
+  vector<int> edad(talla);
   int sum=0;
  for(int i=0; i<talla; i++){
   cout<<"¿ Que edad tienes?" <<endl;
