@@ -17,7 +17,7 @@ int main(){
   for(int j=0; j<talla; j++)
     cout<<edad[j]<<" , " ;
   cout<<endl;
-  cout<<"el promedio de edad a la que se graduara este grupo es " <<sum/16<<endl;
+  cout<<"el promedio de edad a la que se graduara este grupo es " <<sum/talla<<endl;
   return 0;
 }
  
